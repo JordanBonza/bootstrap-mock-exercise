@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://kit.fontawesome.com/84242548a1.js" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+
+<body class="p-sm-1">
+
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+            <div class="container-fluid" id="nav-main">
+                <a class="navbar-brand" href="#">LOGO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Messages&nbsp;<span
+                                    class="mark small rounded bg-success py-0 px-1 fw-bold"
+                                    id="msg-ctr">1,024</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid" id="dashboard">
+
+        <div class="row">
+            <div class="col-12 ">
+                <p class="m-1 fs-4 fs-md-2 fw-bold">Dashboard:</p>
+            </div>
+        </div>
+
+        <table class="table table-striped table-borderless">
+            <thead>
+                <tr class="border-top border-bottom-0">
+                    <th scope="col">Name</th>
+                    <th scope="col">Team</th>
+                    <th scope="col">All Star</th>
+                    <th scope="col">Remove</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="border-top-0">
+                    <td>Steph</td>
+                    <td>Warriors</td>
+                    <td>Yes</td>
+                    <td>
+                        <span class="fa-stack fa-1x">
+                            <i class="crimson fas fa-stack-2x fa-square"></i>
+                            <i class="far fa-stack-1x fa-trash-alt fa-inverse"></i>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Lebron</td>
+                    <td>Cavaliers</td>
+                    <td>Yes</td>
+                    <td>
+                        <span class="fa-stack fa-1x">
+                            <i class="crimson fas fa-stack-2x fa-square"></i>
+                            <i class="far fa-stack-1x fa-trash-alt fa-inverse"></i>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Dwayne</td>
+                    <td>Heat</td>
+                    <td>Yes</td>
+                    <td>
+                        <span class="fa-stack fa-1x">
+                            <i class="crimson fas fa-stack-2x fa-square"></i>
+                            <i class="far fa-stack-1x fa-trash-alt fa-inverse"></i>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Kobe</td>
+                    <td>Lakers</td>
+                    <td>Yes <span class="mark small rounded bg-warning py-0 px-1 fw-bold">Last</span></td>
+                    <td>
+                        <span class="fa-stack fa-1x">
+                            <i class="crimson fas fa-stack-2x fa-square"></i>
+                            <i class="far fa-stack-1x fa-trash-alt fa-inverse"></i>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Isaiah</td>
+                    <td>Celtics</td>
+                    <td>Yes <span class="mark small rounded bg-success py-0 px-1 fw-bold">First</span></td>
+                    <td>
+                        <span class="fa-stack fa-1x">
+                            <i class="crimson fas fa-stack-2x fa-square"></i>
+                            <i class="far fa-stack-1x fa-trash-alt fa-inverse"></i>
+                        </span>
+                    </td>
+                </tr>
+            </tbody>
+
+
+        </table>
+    </div>
+
+    <hr>
+
+    <div class=" container-fluid" id="todos">
+
+        <div class="row">
+            <div class="col-12 ">
+                <p class="m-1 fs-4 fs-md-2 fw-bold">Todos:</p>
+            </div>
+        </div>
+
+
+        <div class="m-0 ps-1 py-0 p-md-2 alert alert-success alert-dismissible fade show" role="alert">
+
+            Feel good about Bootstrap
+            <button type="button" class="btn-close pe-1 py-1 p-md-2 py-md-2" data-bs-dismiss="alert"
+                aria-label="Close"></button>
+
+        </div>
+
+        <div class="m-0 ps-1 py-0 p-md-2 alert alert-info alert-dismissible fade show" role="alert">
+
+            Feel informed about Bootstrap
+            <button type="button" class="btn-close pe-1 py-1 p-md-2 py-md-2" data-bs-dismiss="alert"
+                aria-label="Close"></button>
+
+        </div>
+
+        <div class="m-0 ps-1 py-0 p-md-2 alert alert-warning alert-dismissible fade show" role="alert">
+
+            Feel warned about Bootstrap
+            <button type="button" class="btn-close pe-1 py-1 p-md-2 py-md-2" data-bs-dismiss="alert"
+                aria-label="Close"></button>
+
+        </div>
+
+        <div class="m-0 ps-1 py-0 p-md-2 alert alert-warning alert-dismissible fade show" role="alert">
+            Maybe I should read the docs...
+            <button type="button" class="btn-close pe-1 py-1 p-md-2 py-md-2" data-bs-dismiss="alert"
+                aria-label="Close"></button>
+        </div>
+        <div class="m-0 ps-1 py-0 p-md-2 alert alert-danger alert-dismissible fade show" role="alert">
+            Danger zone
+            <button type="button" class="btn-close pe-1 py-1 p-md-2 py-md-2" data-bs-dismiss="alert"
+                aria-label="Close"></button>
+        </div>
+
+        <div class="m-0 ps-1 py-0 p-md-2 alert alert-danger alert-dismissible fade show" role="alert">
+            I really should read the docs...
+            <button type="button" class="btn-close pe-1 py-1 p-md-2 py-md-2" data-bs-dismiss="alert"
+                aria-label="Close"></button>
+        </div>
+
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
